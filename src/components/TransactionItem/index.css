@@ -1,0 +1,30 @@
+.historyItem {
+  font-size: 13px;
+  width: 100px;
+  margin-right: 20px;
+  flex-grow: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.indULlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+  border-top: 1px solid #7e858e;
+  padding-left: 13px;
+  padding-right: 13px;
+  list-style-type: none;
+}
+.deleteButton {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.deleteBtn {
+  width: 15px;
+  height: 15px;
+}
